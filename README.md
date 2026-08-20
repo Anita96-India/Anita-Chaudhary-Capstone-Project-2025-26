@@ -133,19 +133,8 @@ Run at least eight mock-mode conversations after the index and Part 2 artifact e
 
 This repository was initialized with `main`, then a feature branch was created with at least two commits and merged back with a merge commit. Verify before submission:
 
-```bash
-git log --graph --all --oneline
-```
 
-## Final pre-submission checklist
 
-1. Run Part 2 in a network-enabled environment and confirm test accuracy/confusion matrix from real predictions.
-2. Confirm `models/product_classifier.pt` loads and `data/sample_images/` contains 5+ real test PNGs.
-3. Build the Faiss index and run document-level retrieval evaluation.
-4. Generate and commit all 8+ real MOCK_LLM transcripts, including state/reset, injection, and groundedness refusal cases.
-5. Run a tool spot-check: direct saved-model output must equal the agent tool output.
-6. Run `git log --graph --all` and confirm the feature branch has two commits and a merge commit.
-7. Push this **single repository** publicly to GitHub and submit only that repository URL.
 
 ## Academic integrity
 
